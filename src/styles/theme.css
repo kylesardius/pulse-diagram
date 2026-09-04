@@ -1,0 +1,60 @@
+:root {
+  /* Light mode (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #e0e1e5;
+  --text-primary: #08162b;
+  --text-secondary: #08162b;
+  --accent-red: #fe3a1f;
+  --accent-red-dark: #d92c14;
+  --accent-blue: #80c1c7;
+  --border-color: rgba(8, 22, 43, 0.1);
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  /* Derived diagram tokens */
+  --canvas-from: #ffffff;
+  --canvas-to: #e0e1e5;
+  --node-from: #ffffff;
+  --node-to: #eceef1;
+  --node-stroke: rgba(8, 22, 43, 0.22);
+  --hub-from: #ffffff;
+  --hub-to: #dcecee;
+  --muted-text: rgba(8, 22, 43, 0.6);
+  --scrim: rgba(8, 22, 43, 0.06);
+  --cluster-fill: rgba(8, 22, 43, 0.03);
+  --cluster-stroke: rgba(8, 22, 43, 0.18);
+  --container-fill: rgba(8, 22, 43, 0.035);
+  --well-fill: rgba(8, 22, 43, 0.05);
+  --well-stroke: rgba(8, 22, 43, 0.12);
+
+  --font-heading: 'Trade Gothic Bold Condensed', 'Oswald', 'Haettenschweiler',
+    'Arial Narrow', system-ui, sans-serif;
+  --font-label: 'Supreme Bold', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Supreme Light', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #08162b;
+  --bg-secondary: #0a1a35;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e1e5;
+  --accent-red: #fe3a1f;
+  --accent-red-dark: #e12f17;
+  --accent-blue: #80c1c7;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+
+  --canvas-from: #0b1e3a;
+  --canvas-to: #08162b;
+  --node-from: #0e2141;
+  --node-to: #0a1930;
+  --node-stroke: rgba(255, 255, 255, 0.24);
+  --hub-from: #123055;
+  --hub-to: #0b1e3a;
+  --muted-text: rgba(224, 225, 229, 0.65);
+  --scrim: rgba(0, 0, 0, 0.18);
+  --cluster-fill: rgba(255, 255, 255, 0.03);
+  --cluster-stroke: rgba(255, 255, 255, 0.16);
+  --container-fill: rgba(255, 255, 255, 0.035);
+  --well-fill: rgba(255, 255, 255, 0.05);
+  --well-stroke: rgba(255, 255, 255, 0.12);
+}
